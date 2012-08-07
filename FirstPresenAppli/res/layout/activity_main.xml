@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/question"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="何を表示しますか？"
+        android:textSize="35sp"/>
+
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" >
+            <Button
+                android:id="@+id/buttonA"
+                android:onClick="answerClick"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:text="A" />
+            
+            <Button
+                android:id="@+id/buttonB"
+                android:onClick="answerClick"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:text="B" />
+            
+            <Button
+                android:id="@+id/buttonC"
+                android:onClick="answerClick"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:text="C" />
+            
+            <Button
+                android:id="@+id/buttonD"
+                android:onClick="answerClick"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:text="D" />
+        </TableRow>
+
+  
+</LinearLayout>
